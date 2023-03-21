@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Log In | Employee Management System</title>
-	<link rel="stylesheet" type="text/css" href="stylelogin.css">
-</head>
-<body>
-	<header>
-		<nav>
-			<h1>Employee Management System</h1>
-			<ul id="navli">
-				<li><a class="homeblack" href="index.html">HOME</a></li>
-				<li><a class="homered" href="elogin.html">Employee Login</a></li>
-				<li><a class="homeblack" href="alogin.html">Admin Login</a></li>
-				
-			</ul>
-		</nav>
-	</header>
-	<div class="divider"></div>
+  <head>
+    <title>Log In | Employee Management System</title>
 
-	<div class="loginbox">
-    <img src="assets/avatar.png" class="avatar">
-        <h1>Login Here</h1>
-        <form action="process/eprocess.php" method="POST">
-            <p>Email</p>
-            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
-            <p>Password</p>
-            <input type="password" name="pwd" placeholder="Enter Password" required="required">
-            <input type="submit" name="login-submit" value="Login">
-           
-        </form>
-        
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="stylelogin.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Employee Login</h1>
+        <ul id="navli">
+          <li><a class="homered" href="elogin.html">Employee Login</a></li>
+          <li><a class="homeblack" href="alogin.html">Admin Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="divider"></div>
+
+    <div class="loginbox">
+      <!-- <img src="assets/avatar.png" class="avatar" /> -->
+      <h1 style="font-size: 40px; padding-bottom: 60px">Login Here</h1>
+      <form action="process/eprocess.php" method="POST">
+        <p style="font-size: 20px">Email</p>
+        <input
+          type="text"
+          name="mailuid"
+          placeholder="Enter Email Address"
+          required="required"
+        />
+        <p style="font-size: 20px">Password</p>
+        <input
+          type="password"
+          name="pwd"
+          placeholder="Enter Password"
+          required="required"
+        />
+        <input
+          type="submit"
+          name="login-submit"
+          value="Login"
+          style="margin-top: 30px"
+        />
+      </form>
     </div>
-			
-			
-</body>
+  </body>
 </html>

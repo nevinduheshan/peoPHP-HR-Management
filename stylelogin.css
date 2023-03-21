@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 
 body{
 	margin: 0;
 	 padding: 0;
-    background-color: #5D6D7E;
+    background-color: rgb(30, 30, 39);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -19,7 +21,7 @@ header{
 
 header h1{
 	display: inline;
-	font-family: 'Lobster', cursive;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 32px;
 	float: left;
@@ -37,7 +39,7 @@ nav ul li{
 	display: inline-block;
 	list-style-type: none;
 	color: white;
-	float: left;
+	/* float: left; */
 	margin-left: 12px;
 	
 
@@ -46,6 +48,7 @@ nav ul li{
 nav ul li a{
 	color: white;
 	text-decoration: none;	
+	padding: 0px 10px 0px 10px;
 }
 
 
@@ -65,25 +68,26 @@ nav ul ul{
 
 #navli{
 	font-family: 'Montserrat', sans-serif;
+	padding: 0px 10px 0px 10px;
 }
 
 .homered{
-	background-color: red;
+	color: red;
 	padding: 30px 10px 22px 10px;
+	font-weight: bold;
+	
 }
 
 .divider{
-	background-color: red;
+	background-color: rgb(131, 131, 131);
 	height: 5px;
 }
 
 .homeblack:hover{
-	background-color: blue;
-	padding: 30px 10px 21px 10px;
-
+	color: red;
 }
 
-#divimg{
+/* #divimg{
 	
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -92,13 +96,13 @@ nav ul ul{
 	margin: 0px;
 	height: 100%;
 	width: 100%;
-}
+} */
 
 
 .loginbox{
-    width: 320px;
-    height: 420px;
-    background: #000;
+    width: 500px;
+    height: 500px;
+    background: #011e55;
     color: #fff;
     top: 60%;
     left: 50%;
@@ -106,6 +110,7 @@ nav ul ul{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    border-radius: 30px;
 }
 
 .avatar{
