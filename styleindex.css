@@ -14,9 +14,9 @@ header{
 
 header h1{
 	display: inline;
-	font-family: 'Lobster', cursive;
-	font-weight: 400;
-	font-size: 32px;
+	font-family: 'Poppins', sans-serif;
+	/* font-weight: 400; */
+	font-size: 30px;
 	float: left;
 	margin-top: 0px;
 	margin-right: 10px;
@@ -32,7 +32,7 @@ nav ul li{
 	display: inline-block;
 	list-style-type: none;
 	color: white;
-	float: left;
+	/* float: left; */
 	margin-left: 12px;
 	
 
@@ -41,6 +41,7 @@ nav ul li{
 nav ul li a{
 	color: white;
 	text-decoration: none;	
+	padding: 0px 10px 0px 10px;
 }
 
 
@@ -60,25 +61,26 @@ nav ul ul{
 
 #navli{
 	font-family: 'Montserrat', sans-serif;
+	padding: 0px 10px 0px 10px;
 }
 
 .homered{
-	background-color: red;
+	color: red;
 	padding: 30px 10px 22px 10px;
+	font-weight: bold;
+	
 }
 
 .divider{
-	background-color: red;
+	background-color: rgb(131, 131, 131);
 	height: 5px;
 }
 
 .homeblack:hover{
-	background-color: blue;
-	padding: 30px 10px 21px 10px;
-
+	color: red;
 }
 
-#divimg{
+/* #divimg{
 	
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -87,7 +89,7 @@ nav ul ul{
 	margin: 10px;
 	height: 100%;
 	width: 100%;
-}
+} */
 
 
 #registration{
