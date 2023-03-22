@@ -1,22 +1,29 @@
-<?php 
-require_once ('process/dbh.php');
+<?php
+require_once('process/dbh.php');
 $sql = "SELECT id, firstName, lastName,  points FROM employee, rank WHERE rank.eid = employee.id order by rank.points desc";
 $result = mysqli_query($conn, $sql);
 ?>
 
 
 <html>
+
 <head>
-	<title>Admin Panel | Employee Management System</title>
+	<title>Admin Panel</title>
 	<link rel="stylesheet" type="text/css" href="styleemplogin.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+
 </head>
-<body>
-	
+
+<body style="background-color: rgb(30, 30, 39);">
+
 	<header>
 		<nav>
 			<h1>EMS</h1>
 			<ul id="navli">
-				<li><a class="homered" href="aloginwel.php">HOME</a></li>
+				<li><a class="homered" href="aloginwel.php">Home</a></li>
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>
 				<li><a class="homeblack" href="viewemp.php">View Employee</a></li>
 				<li><a class="homeblack" href="assign.php">Assign Project</a></li>
@@ -27,47 +34,46 @@ $result = mysqli_query($conn, $sql);
 			</ul>
 		</nav>
 	</header>
-	 
-	<div class="divider"></div>
-	<div id="divimg">
-		<h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: center;">Empolyee Leaderboard </h2>
-    	<table>
 
-			<tr bgcolor="#000">
-				<th align = "center">Seq.</th>
-				<th align = "center">Emp. ID</th>
-				<th align = "center">Name</th>
-				<th align = "center">Points</th>
-				
+	<div class="line"></div>
+	<!-- <div id="divimg"> -->
+	<h2 style="font-family: 'Poppins', sans-serif; font-size: 25px; text-align: center; color: white;">Empolyee Leaderboard </h2>
+	<table>
 
-			</tr>
-
-			
-
-			<?php
-				$seq = 1;
-				while ($employee = mysqli_fetch_assoc($result)) {
-					echo "<tr>";
-					echo "<td>".$seq."</td>";
-					echo "<td>".$employee['id']."</td>";
-					
-					echo "<td>".$employee['firstName']." ".$employee['lastName']."</td>";
-					
-					echo "<td>".$employee['points']."</td>";
-					
-					$seq+=1;
-				}
+		<tr bgcolor="#000">
+			<th align="center">No</th>
+			<th align="center">Employee ID</th>
+			<th align="center">Name</th>
+			<th align="center">Points</th>
+		</tr>
 
 
-			?>
 
-		</table>
+		<?php
+		$seq = 1;
+		while ($employee = mysqli_fetch_assoc($result)) {
+			echo "<tr>";
+			echo "<td>" . $seq . "</td>";
+			echo "<td>" . $employee['id'] . "</td>";
 
-		<div class="p-t-20">
-			<button class="btn btn--radius btn--green" type="submit" style="float: right; margin-right: 60px"><a href="reset.php" style="text-decoration: none; color: white"> Reset Points</button>
-		</div>
+			echo "<td>" . $employee['firstName'] . " " . $employee['lastName'] . "</td>";
 
-		
+			echo "<td>" . $employee['points'] . "</td>";
+
+			$seq += 1;
+		}
+
+
+		?>
+
+	</table>
+
+	<div class="p-t-20">
+		<button class="btn btn--radius btn--green" type="submit" style="float: right; margin-right: 60px"><a href="reset.php" style="text-decoration: none; color: white"> Reset Points</button>
+	</div>
+
+
 	</div>
 </body>
+
 </html>
