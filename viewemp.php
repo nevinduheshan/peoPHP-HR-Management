@@ -12,10 +12,10 @@ $result = mysqli_query($conn, $sql);
 
 <html>
 <head>
-	<title>View Employee |  Admin Panel | Employee Management System</title>
+	<title>View Employee</title>
 	<link rel="stylesheet" type="text/css" href="styleview.css">
 </head>
-<body>
+<body style="background-color: rgb(30, 30, 39);">
 	<header>
 		<nav>
 			<h1>EMS</h1>
