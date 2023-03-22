@@ -10,10 +10,10 @@
 
 <html>
 <head>
-	<title>Employee Panel | Employee Management System</title>
+	<title>Employee Panel</title>
 	<link rel="stylesheet" type="text/css" href="styleview.css">
 </head>
-<body>
+<body style="background-color: rgb(30, 30, 39);">
 	
 	<header>
 		<nav>

@@ -10,10 +10,10 @@
 
 <html>
 <head>
-	<title>Apply Leave | Employee Panel | Employee Management System</title>
+	<title>Apply Leave</title>
 	<link rel="stylesheet" type="text/css" href="styleapply.css">
 </head>
-<body bgcolor="#F0FFFF">
+<body style="background-color: rgb(30, 30, 39);">
 	
 	<header>
 		<nav>
@@ -29,7 +29,7 @@
 	</header>
 	 
 	<div class="divider"></div>
-	<div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+	<div class="page-wrapper p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>

@@ -35,7 +35,7 @@ $result = mysqli_query($conn, $sql);
 
 <html>
 <head>
-  <title>My Profile | Employee Management System</title>
+  <title>My Profile</title>
   <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -49,7 +49,7 @@ $result = mysqli_query($conn, $sql);
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
 </head>
-<body>
+<body style="background-color: rgb(30, 30, 39);">
   <header>
     <nav>
       <h1>Employee Management System</h1>
@@ -67,7 +67,7 @@ $result = mysqli_query($conn, $sql);
   
 
     <!-- <form id = "registration" action="edit.php" method="POST"> -->
-  <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+  <div class="page-wrapper p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>
