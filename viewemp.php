@@ -18,7 +18,7 @@ $result = mysqli_query($conn, $sql);
 <body style="background-color: rgb(30, 30, 39);">
 	<header>
 		<nav>
-			<h1>EMS</h1>
+			<h1>HR</h1>
 			<ul id="navli">
 				<li><a class="homeblack" href="aloginwel.php">HOME</a></li>
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>
