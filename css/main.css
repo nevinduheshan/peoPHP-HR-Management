@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 body{
   margin: 0px;
 }
 
 header{
-  background: black;
+  background: #011e55;
   color: white;
   padding: 16px 20px 6px 40px;
   height: 60px;
@@ -14,8 +15,7 @@ header{
 
 header h1{
   display: inline;
-  font-family: 'Lobster', cursive;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   float: left;
   margin-top: 0px;
@@ -62,20 +62,19 @@ nav ul ul{
   font-family: 'Montserrat', sans-serif;
 }
 
-.homered{
-  background-color: red;
+.homered {
+  color: red;
   padding: 30px 10px 22px 10px;
+  font-weight: bold;
 }
 
 .divider{
-  background-color: red;
-  height: 5px;
+  background-color: rgb(131, 131, 131);
+  height: 1px;
 }
 
-.homeblack:hover{
-  background-color: blue;
-  padding: 30px 20px 18px 10px;
-
+.homeblack:hover {
+  color: red;
 }
 
 
