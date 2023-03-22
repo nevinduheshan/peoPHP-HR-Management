@@ -12,15 +12,15 @@ $result = mysqli_query($conn, $sql);
 
 <html>
 <head>
-	<title>Project Status |  Admin Panel | Employee Management System</title>
+	<title>Project Status</title>
 	<link rel="stylesheet" type="text/css" href="styleview.css">
 </head>
-<body>
+<body style="background-color: rgb(30, 30, 39);">
 	<header>
 		<nav>
-			<h1>EMS</h1>
+			<h1>HR</h1>
 			<ul id="navli">
-				<li><a class="homeblack" href="aloginwel.php">HOME</a></li>
+				<li><a class="homeblack" href="aloginwel.php">Home</a></li>
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>
 				<li><a class="homeblack" href="viewemp.php">View Employee</a></li>
 				<li><a class="homeblack" href="assign.php">Assign Project</a></li>
