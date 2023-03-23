@@ -30,7 +30,7 @@ $result = mysqli_query($conn, $sql);
 				<li><a class="homeblack" href="assignproject.php">Project Status</a></li>
 				<li><a class="homeblack" href="salaryemp.php">Salary Table</a></li>
 				<li><a class="homeblack" href="empleave.php">Employee Leave</a></li>
-				<li><a class="homeblack" href="alogin.html">Log Out</a></li>
+				<li><a class="homeblack" href="../../alogin.html">Log Out</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -72,7 +72,7 @@ $result = mysqli_query($conn, $sql);
 	</div>
 
 	<div class="p-t-20">
-		<button class="btn btn--radius btn--green" type="submit" style="float: right; margin-right: 60px"><a href="reset.php" style="text-decoration: none; color: white"> Reset Points</button>
+		<button class="btn btn--radius btn--green" type="submit" style="float: right; margin-right: 160px"><a href="reset.php" style="text-decoration: none; color: white"> Reset Points</button>
 	</div>
 
 
