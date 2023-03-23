@@ -1,7 +1,7 @@
 
 <?php
 
-require_once ('process/dbh.php');
+require_once ('../../process/dbh.php');
 $id = (isset($_GET['id']) ? $_GET['id'] : '');
 $pid = (isset($_GET['pid']) ? $_GET['pid'] : '');
 $sql = "SELECT pid, project.eid, pname, duedate, subdate, mark, points, firstName, lastName, base, bonus, total FROM `project` , `rank` ,`employee`, `salary`  WHERE project.eid = $id AND pid = $pid";
@@ -86,12 +86,12 @@ if(isset($_POST['update']))
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="../../css/main.css" rel="stylesheet" media="all">
 </head>
-<body>
-  <header>
+<body  style="background-color: rgb(30, 30, 39);">
+  <header >
     <nav>
-      <h1>EMS</h1>
+      <h1>HR</h1>
       <ul id="navli">
         <li><a class="homeblack" href="aloginwel.php">HOME</a></li>
         <li><a class="homeblack" href="addemp.php">Add Employee</a></li>
@@ -109,7 +109,7 @@ if(isset($_POST['update']))
   
 
     <!-- <form id = "registration" action="edit.php" method="POST"> -->
-  <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+  <div class="page-wrapper p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>

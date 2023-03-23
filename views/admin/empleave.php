@@ -1,6 +1,6 @@
 <?php
 
-require_once ('process/dbh.php');
+require_once ('../../process/dbh.php');
 
 //$sql = "SELECT * from `employee_leave`";
 $sql = "Select employee.id, employee.firstName, employee.lastName, employee_leave.start, employee_leave.end, employee_leave.reason, employee_leave.status, employee_leave.token From employee, employee_leave Where employee.id = employee_leave.id order by employee_leave.token";
@@ -15,7 +15,7 @@ $result = mysqli_query($conn, $sql);
 <html>
 <head>
 	<title>Employee Leave</title>
-	<link rel="stylesheet" type="text/css" href="styleview.css">
+	<link rel="stylesheet" type="text/css" href="../styleview.css">
 </head>
 <body style="background-color: rgb(30, 30, 39);">
 	
@@ -31,13 +31,15 @@ $result = mysqli_query($conn, $sql);
 				<li><a class="homeblack" href="assignproject.php">Project Status</a></li>
 				<li><a class="homeblack" href="salaryemp.php">Salary Table</a></li>
 				<li><a class="homered" href="empleave.php">Employee Leave</a></li>
-				<li><a class="homeblack" href="alogin.html">Log Out</a></li>
+				<li><a class="homeblack" href="../../alogin.html">Log Out</a></li>
 			</ul>
 		</nav>
 	</header>
 	 
 	<div class="divider"></div>
 	<div id="divimg">
+
+	<div style="padding-left: 100px; padding-right: 100px; padding-top: 50px;">
 		<table>
 			<tr>
 				<th>Emp. ID</th>
@@ -78,7 +80,9 @@ $result = mysqli_query($conn, $sql);
 			?>
 
 		</table>
+		</div>
 		
 	</div>
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-require_once ('process/dbh.php');
+require_once ('../../process/dbh.php');
 $sql = "SELECT * FROM `employee` WHERE 1";
 
 //echo "$sql";
@@ -47,17 +47,17 @@ $result = mysqli_query($conn, $sql);
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="../../css/main.css" rel="stylesheet" media="all">
 </head>
 <body style="background-color: rgb(30, 30, 39);">
   <header>
     <nav>
-      <h1>Employee Management System</h1>
+      <h1>HR Management System</h1>
       <ul id="navli">
-        <li><a class="homeblack" href="eloginwel.php?id=<?php echo $id?>"">HOME</a></li>
-        <li><a class="homered" href="myprofile.php?id=<?php echo $id?>"">My Profile</a></li>
-        <li><a class="homeblack" href="empproject.php?id=<?php echo $id?>"">My Projects</a></li>
-        <li><a class="homeblack" href="applyleave.php?id=<?php echo $id?>"">Apply Leave</a></li>
+        <li><a class="homeblack" href="eloginwel.php?id=<?php echo $id?>">Home</a></li>
+        <li><a class="homered" href="myprofile.php?id=<?php echo $id?>">My Profile</a></li>
+        <li><a class="homeblack" href="empproject.php?id=<?php echo $id?>">My Projects</a></li>
+        <li><a class="homeblack" href="applyleave.php?id=<?php echo $id?>">Apply Leave</a></li>
         <li><a class="homeblack" href="elogin.html">Log Out</a></li>
       </ul>
     </nav>
@@ -76,7 +76,7 @@ $result = mysqli_query($conn, $sql);
                     <form method="POST" action="myprofileup.php?id=<?php echo $id?>" >
 
                         <div class="input-group">
-                          <img src="process/<?php echo $pic;?>" height = 150px width = 150px>
+                          <img src="../../process/<?php echo $pic;?>" height = 150px width = 150px>
                         </div>
 
 

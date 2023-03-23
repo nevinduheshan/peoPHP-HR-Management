@@ -14,7 +14,7 @@ $result = mysqli_query($conn, $sql);
 if(($result) == 1){
     
     
-    header("Location: ..//assignproject.php");
+    header("Location: ..//views/admin/assignproject.php");
 }
 
 else{

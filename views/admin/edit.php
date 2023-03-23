@@ -1,6 +1,6 @@
 <?php
 
-require_once ('process/dbh.php');
+require_once ('../../process/dbh.php');
 $sql = "SELECT * FROM `employee` WHERE 1";
 
 //echo "$sql";
@@ -78,9 +78,9 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="../../css/main.css" rel="stylesheet" media="all">
 </head>
-<body>
+<body style="background-color: rgb(30, 30, 39);">
 	<header>
 		<nav>
 			<h1>EMS</h1>
@@ -97,7 +97,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
 	
 
 		<!-- <form id = "registration" action="edit.php" method="POST"> -->
-	<div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+	<div class="page-wrapper p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>

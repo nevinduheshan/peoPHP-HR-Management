@@ -502,9 +502,8 @@ table {
   font-family: "Montserrat", sans-serif;
 }
 
-th,
-td {
-  text-align: left;
+th,td {
+  text-align: center;
   padding: 8px;
 }
 

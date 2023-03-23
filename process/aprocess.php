@@ -15,7 +15,8 @@ if(mysqli_num_rows($result) == 1){
 	
 
 	//echo ("logged in");
-	header("Location: ..//aloginwel.php");
+	//header("Location: ..//aloginwel.php");
+     header("Location: ..//views/admin/aloginwel.php");
 }
 
 else{

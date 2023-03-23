@@ -1,6 +1,6 @@
 <?php
 
-require_once ('process/dbh.php');
+require_once ('../../process/dbh.php');
 $sql = "SELECT * FROM `employee` WHERE 1";
 
 //echo "$sql";
@@ -52,7 +52,7 @@ if(isset($_POST['update']))
 
 <html>
 <head>
-  <title>Change Password | Employee Management System</title>
+  <title>Change Password</title>
   <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -64,7 +64,7 @@ if(isset($_POST['update']))
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="../../css/main.css" rel="stylesheet" media="all">
 </head>
 <body>
   <header>

@@ -21,7 +21,7 @@ if(mysqli_num_rows($result) == 1){
 	//echo ("logged in");
 	//echo ("$empid");
 	
-	header("Location: ..//eloginwel.php?id=$empid");
+	header("Location: ..//views/staff/eloginwel.php?id=$empid");
 }
 
 else{

@@ -41,7 +41,7 @@ if(($result) == 1){
     
     echo ("<SCRIPT LANGUAGE='JavaScript'>
     window.alert('Succesfully Registered')
-    window.location.href='..//viewemp.php';
+    window.location.href='..//views/admin/viewemp.php';
     </SCRIPT>");
     //header("Location: ..//aloginwel.php");
 }
@@ -71,7 +71,7 @@ if(($result) == 1){
     
     echo ("<SCRIPT LANGUAGE='JavaScript'>
     window.alert('Succesfully Registered')
-    window.location.href='..//viewemp.php';
+    window.location.href='..//views/admin/viewemp.php';
     </SCRIPT>");
     //header("Location: ..//aloginwel.php");
 }

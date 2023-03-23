@@ -1,6 +1,6 @@
 <?php
 
-require_once ('process/dbh.php');
+require_once ('../../process/dbh.php');
 $sql = "SELECT * FROM `employee` WHERE 1";
 
 //echo "$sql";
@@ -67,12 +67,12 @@ if(isset($_POST['update']))
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="../../css/main.css" rel="stylesheet" media="all">
 </head>
-<body>
+<body style="background-color: rgb(30, 30, 39);">
   <header>
     <nav>
-      <h1>Employee Management System</h1>
+      <h1>HR Management System</h1>
       <ul id="navli">
         <li><a class="homeblack" href="eloginwel.php?id=<?php echo $id?>"">HOME</a></li>
         <li><a class="homered" href="myprofile.php?id=<?php echo $id?>"">My Profile</a></li>
@@ -86,7 +86,7 @@ if(isset($_POST['update']))
   
 
     <!-- <form id = "registration" action="edit.php" method="POST"> -->
-  <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+  <div class="page-wrapper p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>

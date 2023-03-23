@@ -18,7 +18,7 @@
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="../../css/main.css" rel="stylesheet" media="all">
 </head>
 
 <body>
@@ -49,7 +49,7 @@
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Assign Project</h2>
-                    <form action="process/assignp.php" method="POST" enctype="multipart/form-data">
+                    <form action="../../process/assignp.php" method="POST" enctype="multipart/form-data">
 
 
                         
