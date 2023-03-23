@@ -19,7 +19,7 @@ $empName = ($employee['firstName']);
 
 	<header>
 		<nav>
-			<h1>HR Management System</h1>
+			<h1>Apply Leave</h1>
 			<ul id="navli">
 				<li><a class="homeblack" href="eloginwel.php?id=<?php echo $id ?>">Home</a></li>
 				<li><a class="homeblack" href="myprofile.php?id=<?php echo $id ?>">My Profile</a></li>

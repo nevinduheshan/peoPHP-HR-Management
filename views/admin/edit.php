@@ -66,7 +66,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
 
 <html>
 <head>
-	<title>View Employee |  Admin Panel | Employee Management System</title>
+	<title>View Employee</title>
 	<!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -83,11 +83,12 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
 <body style="background-color: rgb(30, 30, 39);">
 	<header>
 		<nav>
-			<h1>EMS</h1>
+			<h1>Edit Employee</h1>
 			<ul id="navli">
-				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<!-- <li><a class="homeblack" href="../../index.html">Home</a></li> -->
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>
-				<li><a class="homered" href="viewemp.php">View Employee</a></li>
+				<li><a class="homered" href="viewemp.php">Edit Employee</a></li>
+                <li><a class="homeblack" href="viewemp.php">View Employee</a></li>
 				<li><a class="homeblack" href="../../elogin.html">Log Out</a></li>
 			</ul>
 		</nav>
@@ -97,7 +98,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
 	
 
 		<!-- <form id = "registration" action="edit.php" method="POST"> -->
-	<div class="page-wrapper p-t-100 p-b-100 font-robo">
+	<div class="page-wrapper p-t-100 p-b-100 font-robo" style="background-image: url(../backk.jpg);">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>

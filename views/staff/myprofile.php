@@ -52,7 +52,7 @@ $result = mysqli_query($conn, $sql);
 <body style="background-color: rgb(30, 30, 39);">
   <header>
     <nav>
-      <h1>HR Management System</h1>
+      <h1>My Profile</h1>
       <ul id="navli">
         <li><a class="homeblack" href="eloginwel.php?id=<?php echo $id?>">Home</a></li>
         <li><a class="homered" href="myprofile.php?id=<?php echo $id?>">My Profile</a></li>

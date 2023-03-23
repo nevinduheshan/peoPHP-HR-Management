@@ -24,7 +24,7 @@
 <body>
     <header>
         <nav>
-            <h1>HR</h1>
+            <h1>Assign Project</h1>
             <ul id="navli">
                 <li><a class="homeblack" href="aloginwel.php">HOME</a></li>
                 <li><a class="homeblack" href="addemp.php">Add Employee</a></li>
@@ -43,7 +43,7 @@
 
 
 
-    <div class="page-wrapper p-t-100 p-b-100 font-robo" style="background-color: rgb(30, 30, 39);">
+    <div class="page-wrapper p-t-100 p-b-100 font-robo" style="background-image: url(../backk.jpg);">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="card-heading"></div>

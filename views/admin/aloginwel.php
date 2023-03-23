@@ -17,11 +17,12 @@ $result = mysqli_query($conn, $sql);
 
 </head>
 
-<body style="background-color: rgb(30, 30, 39);">
+<!-- <body style="background-color: rgb(30, 30, 39);"> -->
+	<body style="background-image: url(../backk.jpg);">
 
 	<header>
 		<nav>
-			<h1>HR</h1>
+			<h1>Home</h1>
 			<ul id="navli">
 				<li><a class="homered" href="aloginwel.php">Home</a></li>
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>

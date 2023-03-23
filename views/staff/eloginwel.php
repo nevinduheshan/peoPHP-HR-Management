@@ -48,8 +48,10 @@ $result3 = mysqli_query($conn, $sql3);
 	<div class="divider"></div>
 	<div id="divimg">
 		<div>
-			<h2 style="color: white;">Welcome <?php echo "$empName  $emplname"; ?> </h2>
-			<img src="../../process/<?php echo $picc;?>" height = 50px width = 50px>
+			<div class="row">
+			<div class="column"><h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: left: ; color: white;">Welcome <?php echo "$empName  $emplname"; ?> </h2></div> 
+			<div class="column"><img src="../../process/<?php echo $picc;?>" height = 50px width = 50px></div> 
+			</div>
 
 			<h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: center; color: white;">Empolyee Leaderboard </h2>
 
