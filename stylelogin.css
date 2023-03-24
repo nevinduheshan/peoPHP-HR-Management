@@ -152,16 +152,16 @@ input[type="password"] {
 }
 .loginbox input[type="submit"]:hover {
   cursor: pointer;
-  background: #ffc107;
-  color: #000;
+  background: #940000;
+  color: #fff;
 }
 .loginbox a {
   text-decoration: none;
   font-size: 12px;
   line-height: 20px;
-  color: darkgrey;
+  color: #fb2525;
 }
 
 .loginbox a:hover {
-  color: #ffc107;
+  color: #fff;
 }

@@ -72,7 +72,7 @@ $empName = ($employee['firstName']);
 		</div>
 	</div>
 
-
+	<div style="padding-left: 100px; padding-right: 100px;">
 	<table>
 		<tr>
 			<th >Emp. ID</th>
@@ -106,6 +106,7 @@ $empName = ($employee['firstName']);
 		}
 		?>
 	</table>
+	</div>
 </body>
 
 </html>

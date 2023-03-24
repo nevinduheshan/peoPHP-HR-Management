@@ -52,7 +52,7 @@ $result = mysqli_query($conn, $sql);
 				<th>Address</th>
 				<th>Department</th>
 				<th>Degree</th>
-				<th>Point</th>
+				<!-- <th>Point</th> -->
 				<th>Options</th>
 			</tr>
 
@@ -70,7 +70,7 @@ $result = mysqli_query($conn, $sql);
 				echo "<td>" . $employee['address'] . "</td>";
 				echo "<td>" . $employee['dept'] . "</td>";
 				echo "<td>" . $employee['degree'] . "</td>";
-				echo "<td>" . $employee['points'] . "</td>";
+				// echo "<td>" . $employee['points'] . "</td>";
 				echo "<td><a href=\"edit.php?id=$employee[id]\">Edit</a> | <a href=\"delete.php?id=$employee[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
 			}
 

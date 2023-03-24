@@ -5,5 +5,5 @@ user: admin@gmail.com
 pass: admin
 
 User
-user: john@gmail.com
-pass: 1234
+user: nevinu@gmail.com
+pass: 12345

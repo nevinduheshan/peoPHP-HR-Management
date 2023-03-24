@@ -34,7 +34,7 @@ $result3 = mysqli_query($conn, $sql3);
 
 	<header>
 		<nav>
-			<h1>HR Management System</h1>
+			<h1 style="font-family: 'Poppins', sans-serif; font-size: 35px; text-align: center; color: white;">Welcome <?php echo "$empName  $emplname"; ?></h1>
 			<ul id="navli">
 				<li><a class="homered" href="eloginwel.php?id=<?php echo $id ?>">Home</a></li>
 				<li><a class=" homeblack" href="myprofile.php?id=<?php echo $id ?>">My Profile</a></li>
@@ -47,13 +47,12 @@ $result3 = mysqli_query($conn, $sql3);
 
 	<div class="divider"></div>
 	<div id="divimg">
-		<div>
-			<div class="row">
-			<div class="column"><h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: left: ; color: white;">Welcome <?php echo "$empName  $emplname"; ?> </h2></div> 
-			<div class="column"><img src="../../process/<?php echo $picc;?>" height = 50px width = 50px></div> 
-			</div>
+		
+			
+			<!-- <h2 style="font-family: 'Poppins', sans-serif; font-size: 35px; text-align: center; color: white;">Welcome <?php echo "$empName  $emplname"; ?> </h2> -->
+			<!-- <img src="../../process/<?php echo $picc;?>" height = 50px width = 50px> -->
 
-			<h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: center; color: white;">Empolyee Leaderboard </h2>
+			<!-- <h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px;  color: white;">Empolyee Leaderboard </h2> -->
 
 			<div style="padding-left: 100px; padding-right: 100px;">
 			<table>
@@ -61,7 +60,7 @@ $result3 = mysqli_query($conn, $sql3);
 					<th >No</th>
 					<th >Emp. ID</th>
 					<th >Name</th>
-					<th >Points</th>
+					<!-- <th >Points</th> -->
 			</tr>
 
 				<?php
@@ -71,7 +70,7 @@ $result3 = mysqli_query($conn, $sql3);
 					echo "<td>" . $seq . "</td>";
 					echo "<td>" . $employee['id'] . "</td>";
 					echo "<td>" . $employee['firstName'] . " " . $employee['lastName'] . "</td>";
-					echo "<td>" . $employee['points'] . "</td>";
+					// echo "<td>" . $employee['points'] . "</td>";
 					$seq += 1;
 				}
 				?>

@@ -20,7 +20,7 @@ $result = mysqli_query($conn, $sql);
 		<nav>
 			<h1>Salary Table</h1>
 			<ul id="navli">
-				<li><a class="homeblack" href="aloginwel.php">HOME</a></li>
+				<li><a class="homeblack" href="aloginwel.php">Home</a></li>
 
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>
 				<li><a class="homeblack" href="viewemp.php">View Employee</a></li>

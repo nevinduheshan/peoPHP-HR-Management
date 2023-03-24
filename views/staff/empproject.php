@@ -41,7 +41,7 @@ $result = mysqli_query($conn, $sql);
 					<th>Project Name</th>
 					<th>Due Date</th>
 					<th>Sub Date</th>
-					<th>Mark</th>
+					<!-- <th>Mark</th> -->
 					<th>Status</th>
 					<th>Option</th>
 				</tr>
@@ -54,7 +54,7 @@ $result = mysqli_query($conn, $sql);
 					echo "<td>" . $employee['pname'] . "</td>";
 					echo "<td>" . $employee['duedate'] . "</td>";
 					echo "<td>" . $employee['subdate'] . "</td>";
-					echo "<td>" . $employee['mark'] . "</td>";
+					// echo "<td>" . $employee['mark'] . "</td>";
 					echo "<td>" . $employee['status'] . "</td>";
 
 
