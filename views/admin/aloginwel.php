@@ -37,7 +37,6 @@ $result = mysqli_query($conn, $sql);
 	</header>
 
 	<div class="line"></div>
-	<!-- <div id="divimg"> -->
 	<h2 style="font-family: 'Poppins', sans-serif; font-size: 25px; text-align: center; color: white;">Empolyee Leaderboard </h2>
 
 	<div style="padding-left: 300px; padding-right: 300px;">
@@ -47,7 +46,6 @@ $result = mysqli_query($conn, $sql);
 				<th>No</th>
 				<th>Employee ID</th>
 				<th>Name</th>
-				<!-- <th>Points</th> -->
 			</tr>
 
 
@@ -61,8 +59,6 @@ $result = mysqli_query($conn, $sql);
 
 				echo "<td>" . $employee['firstName'] . " " . $employee['lastName'] . "</td>";
 
-				// echo "<td>" . $employee['points'] . "</td>";
-
 				$seq += 1;
 			}
 
@@ -71,11 +67,6 @@ $result = mysqli_query($conn, $sql);
 
 		</table>
 	</div>
-
-	<div class="p-t-20">
-		<button class="btn btn--radius btn--green" type="submit" style="float: right; margin-right: 300px"><a href="reset.php" style="text-decoration: none; color: white"> Reset Points</button>
-	</div>
-
 
 	</div>
 </body>

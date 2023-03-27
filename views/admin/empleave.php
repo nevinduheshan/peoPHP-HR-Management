@@ -61,7 +61,6 @@ $result = mysqli_query($conn, $sql);
 				$date2 = new DateTime($employee['end']);
 				$interval = $date1->diff($date2);
 				$interval = $date1->diff($date2);
-				//echo "difference " . $interval->days . " days ";
 
 					echo "<tr>";
 					echo "<td>".$employee['id']."</td>";

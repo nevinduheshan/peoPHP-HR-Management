@@ -103,7 +103,7 @@
                         </div>
 
                         <div class="input-group">
-                            <input class="input--style-1" type="number" placeholder="NID" name="nid" required="required">
+                            <input class="input--style-1" type="number" placeholder="NIC" name="nid" required="required">
                         </div>
 
                         

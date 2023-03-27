@@ -60,7 +60,6 @@ $result3 = mysqli_query($conn, $sql3);
 					<th >No</th>
 					<th >Emp. ID</th>
 					<th >Name</th>
-					<!-- <th >Points</th> -->
 			</tr>
 
 				<?php
@@ -70,7 +69,6 @@ $result3 = mysqli_query($conn, $sql3);
 					echo "<td>" . $seq . "</td>";
 					echo "<td>" . $employee['id'] . "</td>";
 					echo "<td>" . $employee['firstName'] . " " . $employee['lastName'] . "</td>";
-					// echo "<td>" . $employee['points'] . "</td>";
 					$seq += 1;
 				}
 				?>

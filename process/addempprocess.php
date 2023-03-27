@@ -76,12 +76,12 @@ if(($result) == 1){
     //header("Location: ..//aloginwel.php");
 }
 
-// else{
-//     echo ("<SCRIPT LANGUAGE='JavaScript'>
-//     window.alert('Failed to Registere')
-//     window.location.href='javascript:history.go(-1)';
-//     </SCRIPT>");
-// }
+else{
+    echo ("<SCRIPT LANGUAGE='JavaScript'>
+    window.alert('Failed to Registere')
+    window.location.href='javascript:history.go(-1)';
+    </SCRIPT>");
+}
 }
 
 
